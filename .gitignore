@@ -9,4 +9,5 @@
 *.db
 .env
 
-# env, db, build ぐらいで基本大丈夫！
+# 環境変数
+.env

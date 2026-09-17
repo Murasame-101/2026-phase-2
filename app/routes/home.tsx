@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
-import { Button } from "~/components/ui/button"
-import { Link } from "react-router"
 import { PlusIcon } from "lucide-react"
+import { useEffect, useState } from "react"
+import { Link } from "react-router"
+import { Button } from "~/components/ui/button"
 
 export default function TopPage() {
 	const [message, setMessage] = useState<string | null>(null)
